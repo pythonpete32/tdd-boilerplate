@@ -1,0 +1,25 @@
+{
+  "name": "tdd-boilerplate",
+  "version": "0.1.0",
+  "description": "wallaby node boilerplate",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallabyjs/calculator-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallabyjs/calculator-sample/issues"
+  },
+  "homepage": "https://github.com/wallabyjs/calculator-sample#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
