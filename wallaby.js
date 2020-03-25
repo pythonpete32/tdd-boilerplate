@@ -8,12 +8,11 @@ module.exports = function () {
       'test/**/*.spec.js' // adjust if required
     ],
 
-
     env: {
-      type: 'node',
-      params: {
-        runner: `-r ${require.resolve('esm')}`
-      }
-    }
+      type: 'node'
+    },
+
+    testFramework: 'jest'
+
   };
 };
